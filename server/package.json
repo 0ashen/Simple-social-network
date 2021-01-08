@@ -1,17 +1,27 @@
 {
   "name": "social-network-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node app",
+    "dev": "nodemon app"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
   "dependencies": {
-    "bcryptjs": "^2.4.3"
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-passport": "^4.1.3",
+    "koa-router": "^10.0.0",
+    "mongoose": "^5.11.11",
+    "mongoose-private-paths": "^0.7.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   }
 }
