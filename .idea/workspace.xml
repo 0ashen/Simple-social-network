@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="add deps">
-      <change afterPath="$PROJECT_DIR$/server/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/lib/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+    <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="add liters husky pretter eslint">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/nodemon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/handlers/errors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/handlers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/lib/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
+    </list>
+    <list id="b90f6afa-5d9f-42c5-a019-09f3cc582938" name="js" comment="">
+      <change afterPath="$PROJECT_DIR$/server/build/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/handlers/body-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/handlers/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/handlers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/lib/mongoose-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/lib/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +36,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="uunxkok9" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1mnQifoMpRrAJED4AfJmozWhYWQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,10 +60,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/node_modules/prettier" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects\Simple-sicial-network\server\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Projects\Simple-sicial-network\server\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -46,18 +74,110 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Simple-sicial-network\server" />
       <recent name="D:\Projects\Simple-sicial-network" />
+      <recent name="D:\Projects\Simple-sicial-network\server\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.start:dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="yarn" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint-and-fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint-and-fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="yarn" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="yarn" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prettier-format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier-format" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="yarn" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="yarn" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.lint" />
+      <item itemvalue="npm.lint-and-fix" />
+      <item itemvalue="npm.prettier-format" />
+      <item itemvalue="npm.start:dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint-and-fix" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.prettier-format" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start:dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default Changelist" comment="" />
+      <changelist id="b90f6afa-5d9f-42c5-a019-09f3cc582938" name="js" comment="" />
       <created>1610127003764</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610127003764</updated>
       <workItem from="1610127004933" duration="2745000" />
-      <workItem from="1610129783852" duration="789000" />
+      <workItem from="1610129783852" duration="2593000" />
+      <workItem from="1610139125792" duration="46000" />
+      <workItem from="1610185337442" duration="2897000" />
+      <workItem from="1610381305679" duration="7510000" />
+      <workItem from="1610464538972" duration="18000" />
+      <workItem from="1610727391038" duration="964000" />
+      <workItem from="1610729318738" duration="157000" />
+      <workItem from="1610729595069" duration="319000" />
+      <workItem from="1610729926241" duration="1506000" />
+      <workItem from="1610731463619" duration="516000" />
+      <workItem from="1610731994323" duration="54000" />
+      <workItem from="1610732059351" duration="100000" />
+      <workItem from="1610732170107" duration="3952000" />
+      <workItem from="1610798281662" duration="3635000" />
+      <workItem from="1610803270052" duration="5600000" />
+      <workItem from="1610884741821" duration="2558000" />
+      <workItem from="1610890730065" duration="88000" />
+      <workItem from="1610890832170" duration="4545000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -66,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610127860574</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add initial config koa app">
+      <created>1610130808474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610130808474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,7 +202,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add deps" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deps" />
+    <MESSAGE value="add initial config koa app" />
+    <MESSAGE value="add liters husky pretter eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="add liters husky pretter eslint" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

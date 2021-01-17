@@ -1,14 +1,29 @@
 {
   "name": "social-network-server",
-  "scripts": {
-    "start": "ts-node app",
-    "dev": "nodemon app"
-  },
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "lint": "eslint ./src --ext .ts",
+    "lint-and-fix": "eslint ./src --ext .ts --fix",
+    "prettier-format": "prettier --config .prettierrc ./src/**/*.ts --write",
+    "prettier-watch": "onchange src/**/*.ts -- prettier --write {{changed}}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn prettier-format",
+      "pre-push": ""
+    }
+  },
   "dependencies": {
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/node": "^14.14.20",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
@@ -16,11 +31,17 @@
     "koa-router": "^10.0.0",
     "mongoose": "^5.11.11",
     "mongoose-private-paths": "^0.7.0",
+    "onchange": "^7.1.0",
     "passport-jwt": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.18.0",
+    "husky": "^4.3.8",
     "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   }
