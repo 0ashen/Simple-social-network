@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="add liters husky pretter eslint">
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/posts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/lib/passport-config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/models/Post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/models/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Simple-sicial-network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Simple-social-network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="stage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/nodemon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/errors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/errors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +158,7 @@
       <workItem from="1610918147833" duration="72000" />
       <workItem from="1610918231611" duration="712000" />
       <workItem from="1610967999792" duration="72000" />
-      <workItem from="1610968086381" duration="10447000" />
+      <workItem from="1610968086381" duration="11381000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -189,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610130808474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="stage">
+      <created>1610997663354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610997663354</updated>
+    </task>
+    <task id="LOCAL-00004" summary="stage">
+      <created>1610997676411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610997676411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +199,8 @@
     <MESSAGE value="add deps" />
     <MESSAGE value="add initial config koa app" />
     <MESSAGE value="add liters husky pretter eslint" />
-    <option name="LAST_COMMIT_MESSAGE" value="add liters husky pretter eslint" />
+    <MESSAGE value="stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
