@@ -9,14 +9,16 @@ const opts = {
 };
 
 module.exports = (passport: any) => {
-  passport.use(new Strategy(opts, async (payload: any, done: any) => {
-    const user = User.findById(payload.id);
-    if (user) {
-      done(null, user);
-    } else {
-      done(null, false);
-    }
-  }));
+  passport.use(
+    new Strategy(opts, async (payload: any, done: any) => {
+      const user = User.findById(payload.id);
+      if (user) {
+        done(null, user);
+      } else {
+        done(null, false);
+      }
+    })
+  );
 };
 
 export {};

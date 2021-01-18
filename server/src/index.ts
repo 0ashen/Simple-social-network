@@ -7,7 +7,6 @@ const handlers = require('./handlers');
 const controllers = require('./controllers');
 const mongooseConfig = require('./lib/mongoose-config');
 
-
 const app = new Koa();
 
 handlers.forEach((h: any) => app.use(h));
@@ -19,4 +18,3 @@ mongooseConfig();
 app.listen(config.port, () =>
   console.log(`Server has been started on port ${config.port}`)
 );
-
