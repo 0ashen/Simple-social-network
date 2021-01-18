@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="add liters husky pretter eslint">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/nodemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/handlers/errors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/handlers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/lib/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/posts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/lib/passport-config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/Post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Simple-sicial-network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Simple-social-network.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
-    </list>
-    <list id="b90f6afa-5d9f-42c5-a019-09f3cc582938" name="js" comment="">
-      <change afterPath="$PROJECT_DIR$/server/build/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/build/handlers/body-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/build/handlers/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/build/handlers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/build/lib/mongoose-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/lib/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/errors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/errors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +55,11 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/node_modules/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-ts-react-experiments" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects\Simple-sicial-network\server\node_modules\prettier" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects\Simple-social-network\server\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="D:\Projects\Simple-sicial-network\server\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Projects\Simple-social-network\server\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -142,11 +134,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.lint-and-fix" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.prettier-format" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.start:dev" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +146,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default Changelist" comment="" />
-      <changelist id="b90f6afa-5d9f-42c5-a019-09f3cc582938" name="js" comment="" />
+      <changelist id="" name="js" comment="" />
       <created>1610127003764</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -178,6 +170,10 @@
       <workItem from="1610884741821" duration="2558000" />
       <workItem from="1610890730065" duration="88000" />
       <workItem from="1610890832170" duration="4545000" />
+      <workItem from="1610918147833" duration="72000" />
+      <workItem from="1610918231611" duration="712000" />
+      <workItem from="1610967999792" duration="72000" />
+      <workItem from="1610968086381" duration="10447000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>

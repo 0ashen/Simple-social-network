@@ -1,4 +1,4 @@
-module.exports = async (ctx, next) => {
+module.exports = async (ctx: any, next: any) => {
   try {
     await next();
   } catch (e) {
