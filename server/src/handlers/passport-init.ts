@@ -1,6 +1,6 @@
-const passport = require('koa-passport')
-const passportConfig = require('../lib/passport-config')
+const passport = require('koa-passport');
+const passportConfig = require('../lib/passport-config');
 
-passportConfig(passport)
+passportConfig(passport);
 
-module.exports = passport.initialize()
+module.exports = passport.initialize();
