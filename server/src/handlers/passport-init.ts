@@ -1,7 +1,6 @@
-const bodyParser = require('./body-parser');
-const errors = require('./errors');
-const passportInit = require('./passport-init');
+const passport = require('koa-passport')
+const passportConfig = require('../lib/passport-config')
 
-module.exports = [bodyParser, errors, passportInit];
+passportConfig(passport)
 
-export {};
+module.exports = passport.initialize()

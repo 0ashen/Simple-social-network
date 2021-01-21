@@ -16,5 +16,5 @@ app.use(controllers.allowedMethods());
 mongooseConfig();
 
 app.listen(config.port, () =>
-  console.log(`Server has been started on port ${config.port}`)
+    console.log(`Server has been started on port ${config.port}`)
 );
