@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="fix passport init">
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/users.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controllers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controllers/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/posts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/users.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/errors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/errors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/passport-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/passport-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Post.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,9 +131,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.prettier-format" />
         <item itemvalue="npm.start:dev" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.prettier-format" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.lint-and-fix" />
       </list>
@@ -222,6 +231,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
