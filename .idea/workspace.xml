@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/posts-likes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/subscriptions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/handlers/catch-mongoose-errors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/handlers/static.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/Subscription.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controllers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controllers/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/posts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/users.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/errors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/errors.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/handlers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/passport-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/passport-config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/models/Post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Post.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.ts" afterDir="false" />
     </list>
@@ -142,7 +141,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default Changelist" comment="" />
+      <changelist id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="" />
       <created>1610127003764</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -176,6 +175,7 @@
       <workItem from="1611246997505" duration="7598000" />
       <workItem from="1611329952090" duration="2196000" />
       <workItem from="1611341917078" duration="2036000" />
+      <workItem from="1611346570824" duration="6895000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611259973555</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="wtf">
+      <created>1611346641136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611346641136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +259,8 @@
     <MESSAGE value="stage" />
     <MESSAGE value="fix git ignore" />
     <MESSAGE value="fix passport init" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix passport init" />
+    <MESSAGE value="wtf" />
+    <option name="LAST_COMMIT_MESSAGE" value="wtf" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
