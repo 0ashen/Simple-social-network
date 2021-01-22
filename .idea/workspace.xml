@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/posts-likes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/subscriptions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/handlers/catch-mongoose-errors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/handlers/static.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/models/Subscription.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/posts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/Post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Post.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,8 +119,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.prettier-format" />
         <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.prettier-format" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.lint-and-fix" />
@@ -175,7 +164,7 @@
       <workItem from="1611246997505" duration="7598000" />
       <workItem from="1611329952090" duration="2196000" />
       <workItem from="1611341917078" duration="2036000" />
-      <workItem from="1611346570824" duration="6895000" />
+      <workItem from="1611346570824" duration="7246000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -233,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611346641136</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="server done">
+      <created>1611356998622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611356998622</updated>
+    </task>
+    <task id="LOCAL-00010" summary="server done">
+      <created>1611357009521</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611357009521</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +263,8 @@
     <MESSAGE value="fix git ignore" />
     <MESSAGE value="fix passport init" />
     <MESSAGE value="wtf" />
-    <option name="LAST_COMMIT_MESSAGE" value="wtf" />
+    <MESSAGE value="server done" />
+    <option name="LAST_COMMIT_MESSAGE" value="server done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
