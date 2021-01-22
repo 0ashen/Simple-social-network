@@ -1,5 +1,5 @@
-const bodyParserTemp = require('koa-bodyparser');
+const bodyParser = require('koa-bodyparser');
 
-module.exports = bodyParserTemp();
+module.exports = bodyParser();
 
 export {};

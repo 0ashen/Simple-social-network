@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="fix git ignore">
+    <list default="true" id="34dbf6d9-dac3-4bc9-8fef-4bb478f5c2b2" name="Default change list" comment="fix passport init">
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/server/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controllers/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/posts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/errors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/errors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/passport-init.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/passport-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/passport-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/Post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Post.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/body-parser.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +59,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <package-manager value="yarn" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="lint-and-fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
@@ -110,6 +92,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
@@ -122,19 +114,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.build" />
       <item itemvalue="npm.lint-and-fix" />
       <item itemvalue="npm.lint" />
       <item itemvalue="npm.prettier-format" />
       <item itemvalue="npm.start:dev" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.prettier-format" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.lint-and-fix" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +164,9 @@
       <workItem from="1611056565104" duration="1174000" />
       <workItem from="1611079163312" duration="1183000" />
       <workItem from="1611080868333" duration="48000" />
-      <workItem from="1611246997505" duration="6411000" />
+      <workItem from="1611246997505" duration="7598000" />
+      <workItem from="1611329952090" duration="2196000" />
+      <workItem from="1611341917078" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -209,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611007196873</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix passport init">
+      <created>1611259953616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611259953616</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix passport init">
+      <created>1611259973555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611259973555</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +230,8 @@
     <MESSAGE value="add liters husky pretter eslint" />
     <MESSAGE value="stage" />
     <MESSAGE value="fix git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix git ignore" />
+    <MESSAGE value="fix passport init" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix passport init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
