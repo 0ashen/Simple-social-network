@@ -2,7 +2,7 @@ const Router = require('koa-router');
 
 const auth = require('./auth');
 const posts = require('./posts');
-const users = require('./users')
+const users = require('./users');
 
 const router = new Router().prefix('/api');
 
