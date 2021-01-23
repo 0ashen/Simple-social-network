@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="init create react app typescript template app">
-      <change afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reportWebVitals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +112,7 @@
       <workItem from="1611341917078" duration="2036000" />
       <workItem from="1611346570824" duration="7501000" />
       <workItem from="1611357951667" duration="17000" />
-      <workItem from="1611416015333" duration="3339000" />
+      <workItem from="1611416015333" duration="3970000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -216,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611357519333</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="client: initial setup">
+      <created>1611419413674</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611419413674</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +235,8 @@
     <MESSAGE value="server done" />
     <MESSAGE value="add koa static" />
     <MESSAGE value="init create react app typescript template app" />
-    <option name="LAST_COMMIT_MESSAGE" value="init create react app typescript template app" />
+    <MESSAGE value="client: initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="client: initial setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
