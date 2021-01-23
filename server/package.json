@@ -2,6 +2,7 @@
   "name": "social-network-server",
   "author": "",
   "license": "ISC",
+  "private": true,
   "scripts": {
     "start": "npm run build && node build/index.js",
     "start:dev": "nodemon",
