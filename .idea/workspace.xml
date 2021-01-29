@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="" />
+    <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="client stage: add redux, scss, theming,">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/general/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/styles/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/styles/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/styles/themes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navigation/Navigation.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navigation/Navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/UserProfile/UserProfile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,15 +56,16 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/assets/images/general" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects\Simple-social-network\server\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="ts.external.directory.path" value="D:\Projects\Simple-social-network\client\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Simple-social-network\client\src\assets\images\general" />
       <recent name="D:\Projects\Simple-social-network\server" />
       <recent name="D:\Projects\Simple-social-network\client" />
     </key>
@@ -56,7 +77,17 @@
       <recent name="D:\Projects\Simple-sicial-network\server\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.prettier-format">
+    <configuration name="prettier-format (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier-format" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="prettier-format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -67,9 +98,43 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="prettier-watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier-watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.prettier-format" />
+        <item itemvalue="npm.prettier-watch" />
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.prettier-format (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +177,15 @@
       <workItem from="1611341917078" duration="2036000" />
       <workItem from="1611346570824" duration="7501000" />
       <workItem from="1611357951667" duration="17000" />
-      <workItem from="1611416015333" duration="3970000" />
+      <workItem from="1611416015333" duration="4011000" />
+      <workItem from="1611438313135" duration="595000" />
+      <workItem from="1611491669653" duration="40000" />
+      <workItem from="1611577738689" duration="14037000" />
+      <workItem from="1611650879025" duration="5647000" />
+      <workItem from="1611669030144" duration="8897000" />
+      <workItem from="1611837483727" duration="4275000" />
+      <workItem from="1611857827419" duration="3882000" />
+      <workItem from="1611941496093" duration="8245000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -205,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611419413674</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="client: initial setup">
+      <created>1611420574745</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611420574745</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +316,8 @@
     <MESSAGE value="add koa static" />
     <MESSAGE value="init create react app typescript template app" />
     <MESSAGE value="client: initial setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="client: initial setup" />
+    <MESSAGE value="client stage: add redux, scss, theming," />
+    <option name="LAST_COMMIT_MESSAGE" value="client stage: add redux, scss, theming," />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
