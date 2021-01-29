@@ -20,17 +20,14 @@ function App() {
     return (
         <BrowserRouter>
             <React.Fragment>
-                <div className='container'>
+                <div className="container">
                     {/*<Route path='/register'*/}
                     {/*       component={Register} />*/}
-                    <Route exact
-                           path="/">
+                    <Route exact path="/">
                         <Redirect to="/login" />
                     </Route>
-                    <Route path='/login'
-                           component={Login} />
-                    <Route path='/user/:id'
-                           component={UserProfile} />
+                    <Route path="/login" component={Login} />
+                    <Route path="/user/:id" component={UserProfile} />
                 </div>
             </React.Fragment>
         </BrowserRouter>
