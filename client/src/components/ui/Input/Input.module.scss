@@ -1,0 +1,26 @@
+.wrapper {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    background: rgba(241, 241, 241, 0.9);
+    border-radius: 5px;
+    height: 45px;
+    color: var(--font-color-gray);
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+    &:focus {
+        background: var(--font-color);
+        color: var(--font-color-dark-gray);
+    }
+
+    &::placeholder {
+        color: var(--font-color-gray);
+        font-weight: 600;
+    }
+}

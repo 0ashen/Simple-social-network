@@ -1,10 +1,16 @@
 import { Sidebar } from '../Sidebar/Sidebar';
+import React from 'react';
 
-export function Layout() {
+export function Layout({
+    children,
+    ...props
+}: {
+    children: React.ReactChild[];
+}) {
     return (
-        <div>
+        <main>
             <Sidebar />
-            layout
-        </div>
+            {children}
+        </main>
     );
 }

@@ -1,22 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald&display=swap');
+
 html {
-    //font-family: ${FONT_FAMILY.PTSans}, 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-    //font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
     box-sizing: border-box;
-    font-weight: 400;
-    font-size: 18px;
 }
 
 ::selection {
     //color: #fff;
     //background: var(--${COLORS.selection});
-}
-
-.disable-animation * {
-    &:not(.blink-words):not(.blink-words b),
-    &:before,
-    &:after {
-        transition: all 0s !important;
-    }
 }
 
 body {
@@ -25,11 +15,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     transition: color 0.2s ease-out, background 0.2s ease-out;
-    background: linear-gradient(
-        115.99deg,
-        var(--body-background-gradient-1) 0.93%,
-        var(--body-background-gradient-2) 92.85%
-    );
+    background: var(--body-background-gradient);
+    font-size: 18px;
+    font-family: var(--font-family-open-sans);
+    font-weight: 600;
+    color: var(--font-color);
 
     #root {
         width: 100%;
@@ -39,6 +29,7 @@ body {
 
 * {
     box-sizing: border-box;
+    outline: none;
 }
 
 a {
