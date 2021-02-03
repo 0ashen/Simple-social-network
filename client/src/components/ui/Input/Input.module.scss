@@ -4,7 +4,7 @@
 
 .input {
     width: 100%;
-    background: rgba(241, 241, 241, 0.9);
+    background: rgba(241, 241, 241, 0.7);
     border-radius: 5px;
     height: 45px;
     color: var(--font-color-gray);
@@ -14,13 +14,25 @@
     padding-right: 10px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
-    &:focus {
+    &:focus,
+    &:not([value='']) {
         background: var(--font-color);
         color: var(--font-color-dark-gray);
     }
 
     &::placeholder {
-        color: var(--font-color-gray);
+        color: var(--font-color-dark-gray);
         font-weight: 600;
+    }
+}
+
+.customStar {
+    font-family: var(--font-family-password);
+    font-size: 14px;
+    letter-spacing: 3px;
+    &::placeholder {
+        font-family: var(--font-family-open-sans);
+        font-size: 18px;
+        letter-spacing: 0px;
     }
 }

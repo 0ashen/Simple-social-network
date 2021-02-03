@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/styles/vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/Input/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/Input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actionTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/authorization.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/authorization.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/styles/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/styles/themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/styles/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ui/Input/Input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/Input/Input.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ui/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/authorization.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/authorization.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,39 +80,39 @@
       <recent name="D:\Projects\Simple-sicial-network" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.prettier-format">
-    <configuration name="prettier-format (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.client dev">
+    <configuration name="client dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="client start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
       <scripts>
-        <script value="prettier-format" />
+        <script value="server start:dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="prettier-format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="prettier-format" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="prettier-watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="prettier-watch" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.prettier-format" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.prettier-watch" />
+        <item itemvalue="npm.client dev" />
+        <item itemvalue="npm.client start" />
+        <item itemvalue="npm.server start:dev" />
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start:dev" />
-        <item itemvalue="npm.prettier-format (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,12 @@
       <workItem from="1611959429621" duration="286000" />
       <workItem from="1612009503666" duration="12229000" />
       <workItem from="1612085155895" duration="6334000" />
-      <workItem from="1612121181678" duration="4389000" />
+      <workItem from="1612121181678" duration="13702000" />
+      <workItem from="1612139581487" duration="4000" />
+      <workItem from="1612141182843" duration="167000" />
+      <workItem from="1612189388465" duration="1806000" />
+      <workItem from="1612345145098" duration="79000" />
+      <workItem from="1612375400900" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -306,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611959467535</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="client stage">
+      <created>1612125728228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612125728228</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +341,6 @@
     <MESSAGE value="add deps" />
     <MESSAGE value="add initial config koa app" />
     <MESSAGE value="add liters husky pretter eslint" />
-    <MESSAGE value="stage" />
     <MESSAGE value="fix git ignore" />
     <MESSAGE value="fix passport init" />
     <MESSAGE value="wtf" />
@@ -338,7 +349,10 @@
     <MESSAGE value="init create react app typescript template app" />
     <MESSAGE value="client: initial setup" />
     <MESSAGE value="client stage: add redux, scss, theming," />
-    <option name="LAST_COMMIT_MESSAGE" value="client stage: add redux, scss, theming," />
+    <MESSAGE value="client stage" />
+    <MESSAGE value="stage" />
+    <MESSAGE value="auth stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="auth stage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

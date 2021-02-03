@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes, HTMLAttributes } from 'react';
 import styles from './Button.module.scss';
 
-export function Button({ children, ...props }: { children: React.ReactChild }) {
+interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+    children: React.ReactChild;
+}
+
+export function Button({ children, ...props }: Props) {
     return (
         <div className={styles.wrapper}>
-            <button className={styles.button}>{children}</button>
+            <button className={styles.button} {...props}>
+                {children}
+            </button>
         </div>
     );
 }

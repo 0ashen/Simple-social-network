@@ -1,24 +1,25 @@
 import { AT_USER } from '../actionTypes';
 
-export type InitialState = {
+export type StateAuthorization = {
     isAuthenticated: boolean;
     user: {};
+    auth?: any;
 };
 
-export type Action = {
+export type ActionAuthorization = {
     type: AT_USER;
     payload: {};
 };
 
-const initialState: InitialState = {
+const initialState: StateAuthorization = {
     isAuthenticated: false,
-    user: {}
+    user: {},
 };
 
-export const auth = (
-    state: InitialState = initialState,
-    action: Action
-): InitialState => {
+export const authorization = (
+    state: StateAuthorization = initialState,
+    action: ActionAuthorization
+): StateAuthorization => {
     switch (action.type) {
         case AT_USER.SET_CURRENT:
             return {

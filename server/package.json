@@ -4,13 +4,13 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "start": "npm run build && node build/index.js",
-    "start:dev": "nodemon",
-    "build": "rimraf ./build && tsc",
-    "lint": "eslint ./src --ext .ts",
-    "lint-and-fix": "eslint ./src --ext .ts --fix",
-    "prettier-format": "prettier --config .prettierrc ./src/**/*.ts --write",
-    "prettier-watch": "onchange src/**/*.ts -- prettier --write {{changed}}"
+    "server start:prod": "npm run build && node build/index.js",
+    "server start:dev": "nodemon",
+    "server build": "rimraf ./build && tsc",
+    "server lint": "eslint ./src --ext .ts",
+    "server lint-and-fix": "eslint ./src --ext .ts --fix",
+    "server prettier-format": "prettier --config .prettierrc ./src/**/*.ts --write",
+    "server prettier-watch": "onchange src/**/*.ts -- prettier --write {{changed}}"
   },
   "husky": {
     "hooks": {

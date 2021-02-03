@@ -5,7 +5,7 @@ export function Layout({
     children,
     ...props
 }: {
-    children: React.ReactChild[];
+    children: React.ReactChild | React.ReactChild[];
 }) {
     return (
         <main>
