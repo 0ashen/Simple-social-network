@@ -34,7 +34,6 @@ function AuthorizationComponent(props: any) {
     ): void => {
         event.preventDefault();
         props.login(user);
-        console.log(props.login);
     };
 
     return (

@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/authorization.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/client_dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/client_start.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/server_start_dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/start.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/start_dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ErrorNotifier/ErrorNotifier.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ErrorNotifier/ErrorNotifier.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/styles/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/Button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ui/Input/Input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/Input/Input.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/Input/Input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/authorization.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/authorization.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +54,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../motu-client" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects\Simple-social-network\server\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
-    <property name="ts.external.directory.path" value="D:\Projects\Simple-social-network\client\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Projects\Simple-social-network\server\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -81,65 +80,13 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.client dev">
-    <configuration name="client dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="client dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="client start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="client start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="server start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="server start:dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start:dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.client dev" />
-        <item itemvalue="npm.client start" />
-        <item itemvalue="npm.server start:dev" />
-        <item itemvalue="npm.start (1)" />
-        <item itemvalue="npm.start:dev" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="npm.client dev" />
+      <item itemvalue="npm.client start" />
+      <item itemvalue="npm.server start:dev" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.start:dev" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -197,7 +144,13 @@
       <workItem from="1612141182843" duration="167000" />
       <workItem from="1612189388465" duration="1806000" />
       <workItem from="1612345145098" duration="79000" />
-      <workItem from="1612375400900" duration="635000" />
+      <workItem from="1612375400900" duration="5920000" />
+      <workItem from="1612385574681" duration="15000" />
+      <workItem from="1612391995552" duration="339000" />
+      <workItem from="1612432282605" duration="2457000" />
+      <workItem from="1618152075203" duration="6000000" />
+      <workItem from="1618166304632" duration="5000" />
+      <workItem from="1618258617464" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -318,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612125728228</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="auth stage">
+      <created>1612376056532</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612376056532</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,9 +310,9 @@
     <MESSAGE value="client: initial setup" />
     <MESSAGE value="client stage: add redux, scss, theming," />
     <MESSAGE value="client stage" />
-    <MESSAGE value="stage" />
     <MESSAGE value="auth stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="auth stage" />
+    <MESSAGE value="stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

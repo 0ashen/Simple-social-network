@@ -13,7 +13,7 @@ export type ActionAuthorization = {
 
 const initialState: StateAuthorization = {
     isAuthenticated: false,
-    user: {},
+    user: {}
 };
 
 export const authorization = (

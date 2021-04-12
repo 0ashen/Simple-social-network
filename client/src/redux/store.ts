@@ -10,8 +10,6 @@ const composeEnhancers = composeWithDevTools({
 /* eslint-disable no-underscore-dangle */
 export default createStore(
     rootReducer,
-    composeEnhancers(
-        applyMiddleware(thunk)
-    )
+    composeEnhancers(applyMiddleware(thunk))
 );
 /* eslint-enable */
