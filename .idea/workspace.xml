@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa6fcf0-b17c-43f2-8732-9e7cf200c4d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/client_dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/client_start.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/server_start_dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/start.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/start_dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ErrorNotifier/ErrorNotifier.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ErrorNotifier/ErrorNotifier.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Authorization/Authorization.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/Input/Input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/Input/Input.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/authorization.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/authorization.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/lib/mongoose-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +69,29 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.client dev">
+    <configuration name="server start:prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server start:prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.client dev" />
       <item itemvalue="npm.client start" />
       <item itemvalue="npm.server start:dev" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.start:dev" />
+      <item itemvalue="npm.server start:prod" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.server start:prod" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -150,7 +155,9 @@
       <workItem from="1612432282605" duration="2457000" />
       <workItem from="1618152075203" duration="6000000" />
       <workItem from="1618166304632" duration="5000" />
-      <workItem from="1618258617464" duration="683000" />
+      <workItem from="1618258617464" duration="714000" />
+      <workItem from="1618308036550" duration="6000" />
+      <workItem from="1618341101468" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="add deps">
       <created>1610127860574</created>
@@ -278,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612376056532</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="stage">
+      <created>1618259314678</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618259314678</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
