@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { Button } from '../ui/Button/Button';
-import styles from './Authorization.module.scss';
-import { Input } from '../ui/Input/Input';
+import React, { useEffect, useState } from 'react';
+import { Button } from '../../components/ui/Button/Button';
+import styles from './Auth.module.scss';
+import { Input } from '../../components/ui/Input/Input';
 import cx from 'classnames';
 import { connect } from 'react-redux';
 import { login, register } from '../../redux/actions/authorization';
 import { StateAuthorization } from '../../redux/reducers/authorization';
+import { store } from 'react-notifications-component';
 
 type Input = 'name' | 'email' | 'password';
 
@@ -35,7 +36,21 @@ function AuthorizationComponent(props: any) {
         event.preventDefault();
         props.login(user);
     };
-
+    useEffect(() => {
+        store.addNotification({
+            title: 'Wonderful!',
+            message: 'teodosii@react-notifications-component',
+            type: 'danger',
+            insert: 'top',
+            container: 'top-right',
+            animationIn: ['animate__animated', 'animate__fadeIn'],
+            animationOut: ['animate__animated', 'animate__fadeOut'],
+            dismiss: {
+                duration: 5000,
+                onScreen: true
+            }
+        });
+    }, []);
     return (
         <div className={styles.wrapper}>
             <div className={styles.inner}>
@@ -119,6 +134,6 @@ const mapStateToProps = (state: StateAuthorization) => ({
     auth: state.auth
 });
 
-export const Authorization = connect(mapStateToProps, { register, login })(
+export const Auth = connect(mapStateToProps, { register, login })(
     AuthorizationComponent
 );
