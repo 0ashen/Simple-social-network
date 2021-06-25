@@ -3,7 +3,7 @@ import { setAuthToken } from '../../utils/setAuthToken';
 import jwtDecode from 'jwt-decode';
 import { AT_USER } from '../actionTypes';
 
-export const register = (userData: any, history: any) => () => {
+export const register = (userData: any, _history: any) => () => {
     axios.post('/api/auth/register', userData);
     // .then(() => history.push('/login'));
 };
@@ -20,8 +20,10 @@ export const login = (userData: any) => (dispatch: any) => {
     });
 };
 
-export const logout = () => (dispatch: any): void => {
-    localStorage.removeItem('access_token');
-    setAuthToken(false);
-    dispatch({});
-};
+export const logout =
+    () =>
+    (dispatch: any): void => {
+        localStorage.removeItem('access_token');
+        setAuthToken(false);
+        dispatch({});
+    };

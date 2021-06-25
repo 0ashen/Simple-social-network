@@ -10,7 +10,7 @@
   "scripts": {
     "prettier-format": "prettier --config .prettierrc ./**/*.ts --write",
     "prettier-watch": "onchange ./**/*.ts -- prettier --write {{changed}}",
-    "lint": "eslint ./src --ext .ts",
-    "lint-and-fix": "eslint ./src --ext .ts --fix"
+    "server lint": "eslint ./server/**/*.ts --ext .ts",
+    "server lint-and-fix": "eslint ./server/**/*.ts --ext .ts --fix"
   }
 }
