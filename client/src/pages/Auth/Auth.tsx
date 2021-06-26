@@ -18,11 +18,11 @@ function AuthorizationComponent(props: any) {
         password: ''
     });
 
-    const onChange = (name: Input) => (
-        event: React.SyntheticEvent<HTMLInputElement>
-    ): void => {
-        setUser({ ...user, [name]: event.currentTarget.value });
-    };
+    const onChange =
+        (name: Input) =>
+        (event: React.SyntheticEvent<HTMLInputElement>): void => {
+            setUser({ ...user, [name]: event.currentTarget.value });
+        };
 
     const onSubmitRegister = (
         event: React.SyntheticEvent<HTMLFormElement>
